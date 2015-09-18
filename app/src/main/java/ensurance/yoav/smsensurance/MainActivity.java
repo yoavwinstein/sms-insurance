@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         if (switchInsurance.isChecked()) {
             message = "Turning on...";
             sendInsuranceSms(true);
+
+            Intent intent = new Intent(getApplicationContext(), DriveAwareService.class);
+            startService(intent);
         }
         else {
             message = "Turning off...";
