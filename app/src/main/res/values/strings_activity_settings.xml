@@ -1,0 +1,9 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="key_insurance_number">insuranceNumber</string>
+    <string name="key_insurance_start_message">insuranceStartMessage</string>
+    <string name="key_insurance_stop_message">insuranceStopMessage</string>
+</resources>

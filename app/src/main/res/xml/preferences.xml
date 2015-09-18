@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Change Insurance Number" android:key="@string/key_insurance_number" android:summary="The phone number to send the SMSes to." android:inputType="phone" />
+    <EditTextPreference android:title="Change Start Message" android:key="@string/key_insurance_start_message" android:summary="The message which will be sent when toggling on the insurance." />
+    <EditTextPreference android:title="Change Stop Message" android:key="@string/key_insurance_stop_message" android:summary="The message which will be sent when toggling off the insurance." />
+</PreferenceScreen>
